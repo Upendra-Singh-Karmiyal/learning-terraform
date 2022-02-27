@@ -5,12 +5,12 @@ Terraform is an infrastructure as code (IaC) tool that allows you to build, chan
 
 
 ### Let's understand through an example.
-Suppose we get requirement to create a architecture for deploying an app.
+Suppose we get requirement to configure an architecture for deploying an app.
 So while setting up architecture to deploy app we will manually go to aws console
 then manually configure EC2 instance, security group, routes, s3 buckets, API gateways etc..
 
 But suddenly the client said he want same architecture in 500 other apps, 
-so will takewe create each architecure one by one?
+so will we configure each app's architecure one by one?
 Configuring one by one will  take a lot of human effort , consume time & increase chances of error.
 To solve this what we can  do is create a template in which we can mention that 
 first create VPC, in VPC create subnet, create security group & create s3 bucket
